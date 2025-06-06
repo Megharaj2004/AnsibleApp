@@ -4,6 +4,6 @@
   tasks:
     - name: Copy WAR file to Tomcat
       copy:
-        src: "/var/snap/jenkins/4874/workspace/AnsibleWeb/target/AnsibleWeb.war"
-        dest: "/opt/tomcat/webapps/AnsibleWeb.war"
+        src: "/var/snap/jenkins/4874/workspace/AnsibleApp/target/AnsibleApp.war"
+        dest: "/opt/tomcat/webapps/AnsibleApp.war"
         remote_src: no
